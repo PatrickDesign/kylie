@@ -6,7 +6,7 @@ body,
 }
 
 .view {
-   /* background: url("../sass/images/emma1-min.jpg")no-repeat center center fixed;*/
+    /*background: url("../sass/images/emma1-min.jpg")no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,33 +15,6 @@ body,
 
 .homeBottom{
     margin-right:38%;
-}
-
-
-
-.navbar {
-    background-color: transparent;
-}
-
-.scrolling-navbar {
-    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    transition: background .5s ease-in-out, padding .5s ease-in-out;
-}
-
-.top-nav-collapse {
-    background-color: #1C2331;
-}
-
-footer.page-footer {
-    background-color: #1C2331;
-    margin-top: 0;
-}
-
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #1C2331;
-    }
 }
 
 
@@ -78,9 +51,26 @@ body,
 }
 
 .carousel-item:nth-child(3) {
-    background-image: url("../images/shelby1.jpg");
+    background-image: url("../images/train_tracks.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*Caption*/
+
+.flex-center {
+    color: #fff;
+}
+
+@media (min-width: 776px) {
+    .carousel .view ul li {
+        display: inline;
+    }
+    .carousel .view .full-bg-img ul li .flex-item {
+        margin-bottom: 1.5rem;
+    }
+}
+
+
 
 
