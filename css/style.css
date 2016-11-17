@@ -51,7 +51,7 @@ body,
 }
 
 .carousel-item:nth-child(3) {
-    background-image: url("../images/emma1-min.jpg");
+    background-image: url("../images/train_tracks.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
